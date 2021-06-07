@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="icon" href="/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/css/modaal.min.css"
+    />
+    <link rel="stylesheet" href="./scss/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="head fade-in">
+      <div class="head__inner">
+        <div class="head__logo">
+          <a href="#">
+            <img src="./images/logo.png" alt="ポートフォリオ" />
+          </a>
+        </div>
+        <a class="nav__btn" href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+        </a>
+        <nav class="nav__wrap">
+          <ul class="nav">
+            <li>
+              <a class="wave" href="#">
+                <span>H</span>
+                <span>O</span>
+                <span>M</span>
+                <span>E</span>
+              </a>
+            </li>
+            <li>
+              <a class="wave" href="#about">
+                <span>A</span>
+                <span>B</span>
+                <span>O</span>
+                <span>U</span>
+                <span>T</span>
+              </a>
+            </li>
+            <li>
+              <a class="wave" href="#skill">
+                <span>S</span>
+                <span>K</span>
+                <span>I</span>
+                <span>L</span>
+                <span>L</span>
+              </a>
+            </li>
+            <li>
+              <a class="wave" href="#project">
+                <span>P</span>
+                <span>R</span>
+                <span>O</span>
+                <span>J</span>
+                <span>C</span>
+                <span>T</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <!-- about -->
+      <section class="about fade-in" id="about">
+        <div class="about__inner">
+          <h1 class="site-ttl">About Me</h1>
+          <div class="about__content">
+            <div class="about-img">
+              <img src="./images/bio.jpg" alt="顔写真" />
+            </div>
+
+            <div id="accordion" class="accordion">
+              <h4 class="accordion__ttl js-accordion-title">
+                エンジニアへの志望理由
+              </h4>
+              <div class="accordion__content">
+                <p>
+                  日本のプロダクトをより多くの人に広めたいというミッションを持って、日系メーカーにて海外営業を担当しておりましたが、次第に広める側よりも自らの手でプロダクトを作る側に興味が湧き、現在はエンジニアを志望して日々学習を継続しています。
+                </p>
+              </div>
+
+              <h4 class="accordion__ttl js-accordion-title">
+                アピールポイント
+              </h4>
+              <div class="accordion__content">
+                <p>
+                  <strong
+                    >語学力を生かして情報収集・トライアンドエラーを繰り返し問題解決に取り組む自走力</strong
+                  >
+                  <br />
+                  前職での日常業務の90％は英語でコミュニケーションを取っておりました。効率的に英語のドキュメントから技術仕様を把握でき、またエラーが起きたときなどの問題解決力やトラブル対応も行えると思っております。ポートフォリオ作成中にエラーが中々解決出来なかった時は、徹底的に英語で情報収集を行い、エラーに対処してきました。語学力を生かして自走し、いち早く即戦力のエンジニアとして貴社に貢献できます。
+                </p>
+                <p>
+                  <strong>様々な課題やトラブルに対応できる柔軟性</strong><br />
+                  今までに20ヵ国以上(アジア・北中南米・アフリカ)をバックパッカーとして旅をしてきました。
+                  旅先では色々とハプニングもありましたが、その場に合わせて冷静に分析し問題を解決する力を身につけることができました。
+                </p>
+              </div>
+
+              <h4 class="accordion__ttl js-accordion-title">学習歴</h4>
+              <div class="accordion__content">
+                <p>
+                  今までに読んで学習をしたの本の一覧です。(以下抜粋して載せております)この他にN予備校プログラミングコース・Udemyにて学習も進めておりました。
+                </p>
+                <ul>
+                  <li>
+                    改訂新版JavaScript本格入門
+                    ～モダンスタイルによる基礎から現場での応用まで
+                  </li>
+                  <li>CSS設計完全ガイド　～詳細解説＋実践的モジュール集</li>
+                  <li>
+                    リーダブルコード―
+                    より良いコードを書くためのシンプルで実践的なテクニック
+                  </li>
+                  <li>Webを支える技術 -HTTP、URI、HTML、そしてREST</li>
+                  <li>
+                    マスタリングTCP/IP　入門編
+                    プロジェクトマネジメント標準PMBOK入門
+                  </li>
+                  <li>アジャイルサムライ−達人開発者への道−</li>
+                  <li>SQL 第2版 ゼロからはじめるデータベース操作</li>
+                  <li>体系的に学ぶ安全なWebアプリケーションの作り方</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- skill -->
+      <section class="skill fade-in" id="skill">
+        <div class="skill__inner">
+          <h1 class="site-ttl">Skill</h1>
+          <p class="skill__desc">今までに使用した言語の一覧になります。</p>
+          <div class="skill__content">
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/html5.svg" alt="html" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <div>
+                  <img src="./images/sass.svg" alt="sass" />
+                </div>
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/javascript.svg" alt="javascript" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/jquery.svg" alt="jquery" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/node.svg" alt="nodejs" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/react.svg" alt="react" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/typescript.svg" alt="typescript" />
+              </div>
+            </div>
+            <div class="skill__card">
+              <div class="skill-img">
+                <img src="./images/next.svg" alt="nextjs" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project -->
+      <section class="project fade-in" id="project">
+        <div class="project__inner">
+          <h1 class="site-ttl">Project</h1>
+          <p>
+            今までに制作したプロジェクトの一覧になります。(クリックすると詳細がご覧頂けます)
+          </p>
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#first" class="modal">
+                  <img src="./images/portfolio01.png" alt="プロジェクト1" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#second" class="modal">
+                  <img src="./images/portfolio02.png" alt="プロジェクト2" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#third" class="modal">
+                  <img src="./images/portfolio03.png" alt="プロジェクト3" />
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
+        </div>
+      </section>
+      <!-- icon -->
+      <section class="icon">
+        <div class="icon__box">
+          <a
+            href="https://github.com/yasufumimyoi"
+            rel="nofollow"
+            target="_blank"
+            ><img src="./images/github.svg" alt="github"
+          /></a>
+        </div>
+        <div class="icon__box">
+          <a href="https://twitter.com/yasucob" rel="nofollow" target="_blank"
+            ><img src="./images/twitter.svg" alt="twitter"
+          /></a>
+        </div>
+        <div class="icon__box">
+          <a href="#"><img src="./images/email.svg" alt="コンタクト" /></a>
+        </div>
+        <div class="icon__box top-jump">
+          <a href="#"><img src="./images/up.svg" alt="home" /> </a>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <p>Copyright &copy Portfolio</p>
+    </footer>
+
+    <!-- Modal01-->
+    <div id="first" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3 class="modal__ttl">学習管理アプリ</h3>
+            <p><a href="https://video-learning-a4c3a.web.app/">URL</a></p>
+            <p>
+              <a href="https://github.com/yasufumimyoi/react-hooks">Github</a>
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3 class="modal__concept">コンセプト</h3>
+            <p>達成率を上げる事で楽しみながら学習を進めていける</p>
+            <p>
+              動画中心に独学で学習を進めていたため、何から手を付けて良いのか分からなかった経験があり、動画を選ぶ手間が省けたら良いなと思っていました。
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3 class="modal__time">制作期間</h3>
+            <p>約2ヶ月</p>
+          </div>
+          <div class="modal__box">
+            <h3 class="modal__lang">使用言語</h3>
+            <ul>
+              <li>React</li>
+              <li>TypeScript</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3 class="modal__point">ポイント</h3>
+            <ul>
+              <li>状態管理</li>
+              <li>アトミックデザイン</li>
+              <li>データベースとの連携</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">サイトメージ</h3>
+        <div class="modal__img">
+          <img src="./images/mission01.png" alt="サイトイメージ01" />
+          <img src="./images/mission02.png" alt="サイトイメージ02" />
+          <img src="./images/mission03.png" alt="サイトイメージ03" />
+          <img src="./images/mission04.png" alt="サイトイメージ04" />
+        </div>
+      </div>
+    </div>
+    <!-- Modal02-->
+    <div id="second" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3>架空のサイト</h3>
+            <p>URL:XXXXXXXXXXXXXX</p>
+            <p>Github:XXXXXXXXXXXX</p>
+          </div>
+          <div class="modal__box">
+            <h3>コンセプト</h3>
+            <p>
+              学生時代にボランティアでローカルガイドを行っていた為、広島の紹介とガイド案内サイトになります。
+            </p>
+            <p>シンプルで分かりやすいデザイン</p>
+          </div>
+          <div class="modal__box">
+            <h3>制作期間</h3>
+            <p>約5日</p>
+          </div>
+          <div class="modal__box">
+            <h3>使用言語</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3>ポイント</h3>
+            <ul>
+              <li>HTML5の理解</li>
+              <li>CSS3の理解</li>
+              <li>アコーディオンメニューの実装</li>
+              <li>スライダーの実装</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">サイトメージ</h3>
+        <div class="modal__img">
+          <img src="./images/hiroshima01.png" alt="サイトイメージ01" />
+          <img src="./images/hiroshima02.png" alt="サイトイメージ02" />
+          <img src="./images/hiroshima03.png" alt="サイトイメージ03" />
+          <img src="./images/hiroshima04.png" alt="サイトイメージ04" />
+        </div>
+      </div>
+    </div>
+    <!-- Modal03-->
+    <div id="third" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3>ポートフォリオサイト</h3>
+            <p>URL:XXXXXXXXXXXXXX</p>
+            <p>Github:XXXXXXXXXXXX</p>
+          </div>
+          <div class="modal__box">
+            <h3>コンセプト</h3>
+            <p>シンプルなデザイン</p>
+          </div>
+          <div class="modal__box">
+            <h3>制作期間</h3>
+            <p>約2日</p>
+          </div>
+          <div class="modal__box">
+            <h3>使用言語</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>jQuery</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3>ポイント</h3>
+            <ul>
+              <li>セマンティックなHTMLコーディング</li>
+              <li>BEMに沿ったメンテナンスしやすいCSS</li>
+              <li>Sassを使ったコードの再利用</li>
+              <li>レスポンシブデザイン</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">サイトメージ</h3>
+        <div class="modal__img">
+          <img src="./images/portfolio_slider01.png" alt="サイトイメージ01" />
+        </div>
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Modaal/0.4.4/js/modaal.min.js"></script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
