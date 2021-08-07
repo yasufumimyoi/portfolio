@@ -145,10 +145,10 @@
           </div>
         </div>
       </section>
-      <!-- skill -->
+      <!-- skills -->
       <section class="skill fade-in" id="skill">
         <div class="skill__inner">
-          <h1 class="site-ttl">Skill</h1>
+          <h1 class="site-ttl">Skills</h1>
           <p class="skill__desc">今までに使用した言語の一覧になります。</p>
           <div class="skill__content">
             <div class="skill__card">
@@ -196,15 +196,25 @@
           </div>
         </div>
       </section>
-      <!-- project -->
+      <!-- projects -->
       <section class="project fade-in" id="project">
         <div class="project__inner">
-          <h1 class="site-ttl">Project</h1>
+          <h1 class="site-ttl">Projects</h1>
           <p>
-            今までに制作したプロジェクトの一覧になります。(クリックすると詳細がご覧頂けます)
+            今までに制作したプロジェクトの一覧になります。(画像をクリックするとプロジェクトの詳細がご覧頂けます)
           </p>
           <div class="swiper-container">
             <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#sixth" class="modal">
+                  <img src="./images/portfolio06.png" alt="プロジェクト6" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#fifth" class="modal">
+                  <img src="./images/portfolio05.png" alt="プロジェクト5" />
+                </a>
+              </div>
               <div class="swiper-slide">
                 <a href="#first" class="modal">
                   <img src="./images/portfolio01.png" alt="プロジェクト1" />
@@ -218,6 +228,11 @@
               <div class="swiper-slide">
                 <a href="#third" class="modal">
                   <img src="./images/portfolio03.png" alt="プロジェクト3" />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#forth" class="modal">
+                  <img src="./images/portfolio04.png" alt="プロジェクト4" />
                 </a>
               </div>
             </div>
@@ -242,9 +257,9 @@
             ><img src="./images/twitter.svg" alt="twitter"
           /></a>
         </div>
-        <div class="icon__box">
+        <!-- <div class="icon__box">
           <a href="#"><img src="./images/email.svg" alt="コンタクト" /></a>
-        </div>
+        </div> -->
         <div class="icon__box top-jump">
           <a href="#"><img src="./images/up.svg" alt="home" /> </a>
         </div>
@@ -260,15 +275,27 @@
       <div class="modal__content">
         <div class="modal__detail">
           <div class="modal__box">
-            <h3 class="modal__ttl">学習管理アプリ</h3>
-            <p><a href="https://video-learning-a4c3a.web.app/">URL</a></p>
+            <h3 class="modal__ttl">学習管理アプリ(React)</h3>
             <p>
-              <a href="https://github.com/yasufumimyoi/react-hooks">Github</a>
+              URL:<a
+                href="https://video-learning-a4c3a.web.app/"
+                target="_blank"
+                rel="nofollow"
+                >https://video-learning-a4c3a.web.app/</a
+              >
+            </p>
+            <p>
+              Github:<a
+                href="https://github.com/yasufumimyoi/react-hooks"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/react-hooks</a
+              >
             </p>
           </div>
           <div class="modal__box">
             <h3 class="modal__concept">コンセプト</h3>
-            <p>達成率を上げる事で楽しみながら学習を進めていける</p>
+            <p>達成率を上げる事で楽しみながら学習を進めていける。</p>
             <p>
               動画中心に独学で学習を進めていたため、何から手を付けて良いのか分からなかった経験があり、動画を選ぶ手間が省けたら良いなと思っていました。
             </p>
@@ -288,9 +315,9 @@
           <div class="modal__box">
             <h3 class="modal__point">ポイント</h3>
             <ul>
-              <li>状態管理</li>
-              <li>アトミックデザイン</li>
-              <li>データベースとの連携</li>
+              <li>状態管理はuseContextを使用</li>
+              <li>データベース(Firebase)との連携</li>
+              <li>ライブラリー選定はnpm trendsを活用</li>
             </ul>
           </div>
         </div>
@@ -308,16 +335,31 @@
       <div class="modal__content">
         <div class="modal__detail">
           <div class="modal__box">
-            <h3>架空のサイト</h3>
-            <p>URL:XXXXXXXXXXXXXX</p>
-            <p>Github:XXXXXXXXXXXX</p>
+            <h3>架空の観光サイト</h3>
+            <p>
+              URL:
+              <a
+                href="https://festive-wilson-840557.netlify.app/"
+                target="_blank"
+                rel="nofollow"
+                >https://festive-wilson-840557.netlify.app/</a
+              >
+            </p>
+            <p>
+              Github:
+              <a
+                href="https://github.com/yasufumimyoi/travel-site"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/travel-site</a
+              >
+            </p>
           </div>
           <div class="modal__box">
             <h3>コンセプト</h3>
             <p>
-              学生時代にボランティアでローカルガイドを行っていた為、広島の紹介とガイド案内サイトになります。
+              学生時代にボランティアでローカルガイドを行っていた事もあり、外国人向けの架空の広島の紹介・ガイド案内サイトになります。
             </p>
-            <p>シンプルで分かりやすいデザイン</p>
           </div>
           <div class="modal__box">
             <h3>制作期間</h3>
@@ -337,7 +379,8 @@
             <ul>
               <li>HTML5の理解</li>
               <li>CSS3の理解</li>
-              <li>アコーディオンメニューの実装</li>
+              <li>JavaScriptの理解</li>
+              <li>コーディオンメニューの実装</li>
               <li>スライダーの実装</li>
             </ul>
           </div>
@@ -357,12 +400,28 @@
         <div class="modal__detail">
           <div class="modal__box">
             <h3>ポートフォリオサイト</h3>
-            <p>URL:XXXXXXXXXXXXXX</p>
-            <p>Github:XXXXXXXXXXXX</p>
+            <p>
+              URL:
+              <a
+                href="https://portfolio-yasufumimyoi.netlify.app/"
+                target="_blank"
+                rel="nofollow"
+                >https://portfolio-yasufumimyoi.netlify.app/</a
+              >
+            </p>
+            <p>
+              Github:
+              <a
+                href="https://github.com/yasufumimyoi/portfolio"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/portfolio</a
+              >
+            </p>
           </div>
           <div class="modal__box">
             <h3>コンセプト</h3>
-            <p>シンプルなデザイン</p>
+            <p>シンプルなデザインで分かりやすいポートフォリオサイト</p>
           </div>
           <div class="modal__box">
             <h3>制作期間</h3>
@@ -381,7 +440,7 @@
             <h3>ポイント</h3>
             <ul>
               <li>セマンティックなHTMLコーディング</li>
-              <li>BEMに沿ったメンテナンスしやすいCSS</li>
+              <li>BEMに沿ったメンテナンスしやすいCSS設計</li>
               <li>Sassを使ったコードの再利用</li>
               <li>レスポンシブデザイン</li>
             </ul>
@@ -390,6 +449,180 @@
         <h3 class="modal__sub">サイトメージ</h3>
         <div class="modal__img">
           <img src="./images/portfolio_slider01.png" alt="サイトイメージ01" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal04-->
+    <div id="forth" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3>お天気通知Bot(Lazy Weather)</h3>
+            <p>
+              Github:
+              <a
+                href="https://github.com/yasufumimyoi/lazy-weather"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/lazy-weather</a
+              >
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3>コンセプト</h3>
+            <p>自宅にテレビが無く、自動的に天気予報をLineで通知してくる</p>
+          </div>
+          <div class="modal__box">
+            <h3>制作期間</h3>
+            <p>約1日</p>
+          </div>
+          <div class="modal__box">
+            <h3>使用言語</h3>
+            <ul>
+              <li>Node.js</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3>ポイント</h3>
+            <ul>
+              <li>外部API(OpenWeather)の使用</li>
+              <li>
+                GitHub Actions のワークフローを使って特定の処理を定期的に実行
+              </li>
+              <li>翌日に東京に雨が降る予報があれば、Line通知される</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">Botイメージ</h3>
+        <div class="modal__img">
+          <img src="./images/bot01.png" alt="botイメージ01" />
+          <img src="./images/bot02.png" alt="botイメージ02" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal05-->
+    <div id="fifth" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3>学習管理アプリ(Next.js)</h3>
+            <p>
+              URL:
+              <a
+                href="https://learning-app-nu.vercel.app/"
+                target="_blank"
+                rel="nofollow"
+                >https://learning-app-nu.vercel.app/</a
+              >
+            </p>
+            <p>
+              Github:
+              <a
+                href="https://github.com/yasufumimyoi/learning-app"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/learning-app</a
+              >
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3>コンセプト</h3>
+            <p>
+              動画を視聴し終わると次々に新しい動画にアクセスできるようにする事でゲーム感覚で進めてもらいたい
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3>制作期間</h3>
+            <p>約1.5ヶ月</p>
+          </div>
+          <div class="modal__box">
+            <h3>使用言語</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3>ポイント</h3>
+            <ul>
+              <li>状態管理はRedux Toolkitを使用</li>
+              <li>ダイナミックルーティングの活用</li>
+              <li>firebaseセキュリティールールのテストを実施</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">サイトメージ</h3>
+        <div class="modal__img">
+          <img src="./images/next01.png" alt="サイトイメージ01" />
+          <img src="./images/next02.png" alt="サイトメージ02" />
+          <img src="./images/next03.png" alt="サイトメージ02" />
+          <img src="./images/next04.png" alt="サイトメージ02" />
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal06-->
+    <div id="sixth" style="display: none">
+      <div class="modal__content">
+        <div class="modal__detail">
+          <div class="modal__box">
+            <h3>アニメリストアプリ(Next.js)</h3>
+            <p>
+              URL:
+              <a
+                href="https://nextjs-project-ochre.vercel.app/"
+                target="_blank"
+                rel="nofollow"
+                >https://nextjs-project-ochre.vercel.app/</a
+              >
+            </p>
+            <p>
+              Github:
+              <a
+                href="https://github.com/yasufumimyoi/nextjs-project"
+                target="_blank"
+                rel="nofollow"
+                >https://github.com/yasufumimyoi/nextjs-project</a
+              >
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3>コンセプト</h3>
+            <p>
+              ステイホームする内にアニメを見る機会が増えたので、リスト化させたいと思い作成しました。
+            </p>
+          </div>
+          <div class="modal__box">
+            <h3>制作期間</h3>
+            <p>約1.5ヶ月</p>
+          </div>
+          <div class="modal__box">
+            <h3>使用言語</h3>
+            <ul>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+              <li>Firebase</li>
+            </ul>
+          </div>
+          <div class="modal__box">
+            <h3>ポイント</h3>
+            <ul>
+              <li>状態管理はRedux Toolkitを使用</li>
+              <li>外部APIを使用し、必要なデータはフロント側で抽出</li>
+              <li>firebaseセキュリティールールのテストを実施</li>
+              <li>React Testing Libraryでユニットテストを実施</li>
+            </ul>
+          </div>
+        </div>
+        <h3 class="modal__sub">サイトメージ</h3>
+        <div class="modal__img">
+          <img src="./images/anime01.png" alt="サイトイメージ01" />
+          <img src="./images/anime02.png" alt="サイトメージ02" />
+          <img src="./images/anime03.png" alt="サイトメージ03" />
+          <img src="./images/anime04.png" alt="サイトメージ04" />
         </div>
       </div>
     </div>
